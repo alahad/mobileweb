@@ -1,0 +1,79 @@
+body{
+	background-color:white; font-size:Times and Roman; color:white;
+}
+nav{
+	width:100%; background:Maroon; padding:0 150px; box-sizing:border-box;
+}
+nav h1{
+	margin:0; padding:10px 15px; float:center-left;
+}
+nav h1 a{
+	color:white;
+}
+nav ul{
+	margin:0; padding:0; float:right;
+}
+nav ul{
+	list-style:none;
+}
+nav ul li{
+	float:left; width:200px; height:40px; background-color:black; line-height:40px; text-align:center; font-size:20px; margin-right:3px; 
+	box-shadow: 0px 2px 5px 0px gray; 
+}
+nav ul li a{
+	text-decoration:none; color:white; display:block;
+}
+nav ul li a:hover{
+	background-color:SkyBlue; font-weight: bold;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+	position: relative;
+	z-index: 2;
+}
+.toggle{
+	width:100%; background:Navy; padding:10px 30px; box-sizing: border-box; display:none;
+}
+.toggle h3{
+	margin:0; padding:3px 0; color:white;
+}
+.toggle h3{
+	float:left;	
+}	
+
+.toggle h3{
+	color:OldLace;	
+}	
+.toggle h4{
+	color:Black;	
+}
+.toggle h4{
+	float:right; padding:5px 10px; background:Khaki; text-transform:uppercase; cursor:pointer;
+}
+@media(max-width: 900px){
+	nav{
+		display:none; padding:0;
+	}
+	ul li ul li{
+		background-color:gray; text-transform:uppercase;
+	}
+	.toggle{
+		display:block;
+	}
+	nav h1 {
+		display:block;
+		float:none;
+	}
+	nav ul{
+		float:none;
+	}
+	nav ul li{
+		display:block; text-align:center; background:#141e33; padding:15px 20px; border-bottom: 1px solid rgba(255,255,255,1);
+	}	
+}
+
+   	
+ 	
